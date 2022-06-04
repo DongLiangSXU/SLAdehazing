@@ -16,6 +16,6 @@ It should be noted that the qualitative results of the first-stage results are b
 
 ## checkpoint-files
 You can get our parameter file from the link below
-[https://github.com/DongLiangSXU/SLAdehazing/edit/main/README.md](https://drive.google.com/drive/folders/1xq1tg7wvNJeZTw8w4RnqEsJzQRcmHLCI?usp=sharing)
+https://drive.google.com/drive/folders/1xq1tg7wvNJeZTw8w4RnqEsJzQRcmHLCI?usp=sharing
 
 
