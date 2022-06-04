@@ -7,6 +7,7 @@ Self-supervised Learning and Adaptation for Single Image Dehazing (IJCAI-ECAI 20
 ## only-test
 If you just need to test, you can execute the following code (need to load the parameters we provide):
 <pre><code>python test_meta.py</code></pre>
+We recommend using pytorch>1.0 as well as pytorch<1.6 to avoid some unnecessary hassles. Our method does not rely on the special design of the network structure.
 
 It provides 2 different stages of test code, you can choose to test any labeled data set or unlabeled data and real haze maps on the Internet, our method does not need any labeled data during training, however, competitive results were still produced on these datasets.
 
