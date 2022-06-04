@@ -5,6 +5,9 @@ Self-supervised Learning and Adaptation for Single Image Dehazing (IJCAI-ECAI 20
 <pre><code>pytorch 1.5</code></pre>
 We recommend using pytorch>1.0 and pytorch<1.6 to avoid unnecessary trouble. Our method does not rely on the special design of the network structure, so the rest of the general dependencies are not limited.
 
+## train
+Please wait for a while. We will tidy up the training code. It won't consume a lot of time.
+
 ## only-test
 If you just need to test, you can execute the following code (need to load the parameters we provide):
 <pre><code>python test_meta.py</code></pre>
