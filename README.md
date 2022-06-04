@@ -5,20 +5,20 @@ Existing deep image dehazing methods usually depend on supervised learning with 
 ficult to collect. Moreover, dehazing performance of the learned model may deteriorate significantly when the training hazy-clean image pairs are insufficient and are different from real hazy images in applications. In this paper, we show that exploiting large scale training set and adapting to real hazy images are two critical issues in learning effective deep dehazing models. Under the depth guidance estimated by a well-trained depth estimation network, we leverage the conventional
 atmospheric scattering model to generate massive hazy-clean image pairs for the self-supervised pretraining of dehazing network. Furthermore, self-supervised adaptation is presented to adapt pretrained network to real hazy images. Learning without forgetting strategy is also deployed in self-supervised adaptation by combining self-supervision and model adaptation via contrastive learning. Experiments show that our proposed method performs favorably against the state-of-the-art methods, and is quite efficient, i.e., handling a 4K image in 23 ms.
 
-## some result
+## Some Result
 <div align="center">
 <img src=reimg/score.png width=50%/>
 <img src=reimg/picshow.png width=100%/>
 </div>
 
-## Environment settings
+## Environment Settings
 <pre><code>pytorch 1.5</code></pre>
 We recommend using pytorch>1.0 and pytorch<1.6 to avoid unnecessary trouble. Our method does not rely on the special design of the network structure, so the rest of the general dependencies are not limited.
 
-## train
+## Train
 Please wait for a while. We will tidy up the training code. It won't consume a lot of time.
 
-## only-test
+## Only-test
 If you just need to test, you can execute the following code (need to load the parameters we provide):
 <pre><code>python test_meta.py</code></pre>
 
@@ -27,11 +27,11 @@ It provides 2 different stages of test code, you can choose to test any labeled 
 
 It should be noted that the qualitative results of the first-stage results are better, and the quantitative results of the second-stage results are better on the real data set.
 
-## checkpoint-files
+## Checkpoint-files
 You can get our parameter file from the link below
 https://drive.google.com/drive/folders/1xq1tg7wvNJeZTw8w4RnqEsJzQRcmHLCI?usp=sharing
 
-## data-get
+## Data-get
 We will give a link to the data we used for training, please wait while we sort out the training code.<br/>
 The data used for testing can be obtained through the following links:<br/>
 <b>SOTS:</b> http://t.cn/RQ34zUi<br/>
@@ -41,7 +41,7 @@ Unfortunately, SOTS and URHI's dataset link may not be accessible, you can find 
 https://sites.google.com/view/reside-dehaze-datasets</br>
 In the meantime, we'll make a link to help you get these two datasets. Please wait for a while.
 
-## citation
+## Citation
 If you find our work useful in your research, please cite:
 <pre><code>
 @InProceedings{Liang_2022_IJCAI,
@@ -52,6 +52,6 @@ If you find our work useful in your research, please cite:
 }
 </code></pre>
 
-## contact us
+## Contact Us
 If you have any questions, please contact us:</p>
 202022407046@email.sxu.edu.cn
