@@ -5,6 +5,9 @@ Existing deep image dehazing methods usually depend on supervised learning with 
 ficult to collect. Moreover, dehazing performance of the learned model may deteriorate significantly when the training hazy-clean image pairs are insufficient and are different from real hazy images in applications. In this paper, we show that exploiting large scale training set and adapting to real hazy images are two critical issues in learning effective deep dehazing models. Under the depth guidance estimated by a well-trained depth estimation network, we leverage the conventional
 atmospheric scattering model to generate massive hazy-clean image pairs for the self-supervised pretraining of dehazing network. Furthermore, self-supervised adaptation is presented to adapt pretrained network to real hazy images. Learning without forgetting strategy is also deployed in self-supervised adaptation by combining self-supervision and model adaptation via contrastive learning. Experiments show that our proposed method performs favorably against the state-of-the-art methods, and is quite efficient, i.e., handling a 4K image in 23 ms.
 
+## some result
+![image](reimg/score.png)
+
 ## citation
 If you find our work useful in your research, please cite:
 <pre><code>
@@ -36,7 +39,7 @@ It should be noted that the qualitative results of the first-stage results are b
 You can get our parameter file from the link below
 https://drive.google.com/drive/folders/1xq1tg7wvNJeZTw8w4RnqEsJzQRcmHLCI?usp=sharing
 
-## test-data
+## data-get
 We will give a link to the data we used for training, please wait while we sort out the training code.<br/>
 The data used for testing can be obtained through the following links:<br/>
 <b>SOTS:</b> http://t.cn/RQ34zUi<br/>
