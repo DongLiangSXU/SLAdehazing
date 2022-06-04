@@ -1,7 +1,8 @@
 # SLAdehazing
 Self-supervised Learning and Adaptation for Single Image Dehazing (IJCAI-ECAI 2022 long presentation)
 
-
+## Environment settings
+<pre><code>pytorch 1.5</code></pre>
 
 ## only-test
 If you just need to test, you can execute the following code (need to load the parameters we provide):
