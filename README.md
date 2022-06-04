@@ -8,7 +8,7 @@ atmospheric scattering model to generate massive hazy-clean image pairs for the 
 ## citation
 If you find our work useful in your research, please cite:
 <pre><code>
-@InProceedings{Chen_2021_CVPR,
+@InProceedings{Liang_2022_IJCAI,
     author    = {Yudong Liang, Bin Wang, Wangmeng Zuo, Jiaying Liu and Wenqi Ren},
     title     = {Self-supervised Learning and Adaptation for Single Image Dehazing},
     booktitle = {Proceedings of the 31st International Joint Conference on Artificial Intelligence and the 25th European Conference on Artificial Intelligence (IJCAI-ECAI)},
