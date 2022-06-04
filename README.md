@@ -9,12 +9,10 @@ atmospheric scattering model to generate massive hazy-clean image pairs for the 
 If you find our work useful in your research, please cite:
 <pre><code>
 @InProceedings{Chen_2021_CVPR,
-    author    = {Chen, Zeyuan and Wang, Yangchao and Yang, Yang and Liu, Dong},
-    title     = {PSD: Principled Synthetic-to-Real Dehazing Guided by Physical Priors},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    month     = {June},
-    year      = {2021},
-    pages     = {7180-7189}
+    author    = {Yudong Liang, Bin Wang, Wangmeng Zuo, Jiaying Liu and Wenqi Ren},
+    title     = {Self-supervised Learning and Adaptation for Single Image Dehazing},
+    booktitle = {Proceedings of the 31st International Joint Conference on Artificial Intelligence and the 25th European Conference on Artificial Intelligence (IJCAI-ECAI)},
+    year      = {2022},
 }
 </code></pre>
 
