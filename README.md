@@ -31,8 +31,8 @@ The data used for testing can be obtained through the following links:<br/>
 <b>SOTS:</b> http://t.cn/RQ34zUi<br/>
 <b>4KID:</b> https://github.com/zzr-idam/4KDehazing<br/>
 <b>URHI:</b> http://t.cn/RHVjLXp<br/>
-Unfortunately, SOTS and URHI's dataset link may not be accessible, you can find the Baidu network disk link to get the dataset from the following link (if you are in China): </pr>
-https://sites.google.com/view/reside-dehaze-datasets</pr>
+Unfortunately, SOTS and URHI's dataset link may not be accessible, you can find the Baidu network disk link to get the dataset from the following link (if you are in China): </br>
+https://sites.google.com/view/reside-dehaze-datasets</br>
 In the meantime, we'll make a link to help you get these two datasets. Please wait for a while.
 
 
