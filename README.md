@@ -6,7 +6,7 @@ ficult to collect. Moreover, dehazing performance of the learned model may deter
 atmospheric scattering model to generate massive hazy-clean image pairs for the self-supervised pretraining of dehazing network. Furthermore, self-supervised adaptation is presented to adapt pretrained network to real hazy images. Learning without forgetting strategy is also deployed in self-supervised adaptation by combining self-supervision and model adaptation via contrastive learning. Experiments show that our proposed method performs favorably against the state-of-the-art methods, and is quite efficient, i.e., handling a 4K image in 23 ms.
 
 ## some result
-<img src=reimg/score.png width=200 height=200 />
+<img src=reimg/score.png width=200 height=170 />
 
 ## citation
 If you find our work useful in your research, please cite:
