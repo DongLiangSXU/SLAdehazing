@@ -7,6 +7,9 @@ Self-supervised Learning and Adaptation for Single Image Dehazing (IJCAI-ECAI 20
 If you just need to test, you can execute the following code (need to load the parameters we provide):
 <pre><code>python test_meta.py</code></pre>
 
+It provides 2 different stages of test code, you can choose to test any labeled dataset, our method does not require any labeled data during training, but still produces competitive results on these datasets.
+
+It should be noted that the qualitative results of the first-stage results are better, and the quantitative results of the second-stage results are better on the real data set.
 
 ## checkpoint-files
 You can get our parameter file from the link below
