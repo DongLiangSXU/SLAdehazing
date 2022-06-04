@@ -11,17 +11,6 @@ atmospheric scattering model to generate massive hazy-clean image pairs for the 
 <img src=reimg/picshow.png width=100%/>
 </div>
 
-## citation
-If you find our work useful in your research, please cite:
-<pre><code>
-@InProceedings{Liang_2022_IJCAI,
-    author    = {Yudong Liang, Bin Wang, Wangmeng Zuo, Jiaying Liu and Wenqi Ren},
-    title     = {Self-supervised Learning and Adaptation for Single Image Dehazing},
-    booktitle = {Proceedings of the 31st International Joint Conference on Artificial Intelligence and the 25th European Conference on Artificial Intelligence (IJCAI-ECAI)},
-    year      = {2022},
-}
-</code></pre>
-
 ## Environment settings
 <pre><code>pytorch 1.5</code></pre>
 We recommend using pytorch>1.0 and pytorch<1.6 to avoid unnecessary trouble. Our method does not rely on the special design of the network structure, so the rest of the general dependencies are not limited.
@@ -52,4 +41,14 @@ Unfortunately, SOTS and URHI's dataset link may not be accessible, you can find 
 https://sites.google.com/view/reside-dehaze-datasets</br>
 In the meantime, we'll make a link to help you get these two datasets. Please wait for a while.
 
+## citation
+If you find our work useful in your research, please cite:
+<pre><code>
+@InProceedings{Liang_2022_IJCAI,
+    author    = {Yudong Liang, Bin Wang, Wangmeng Zuo, Jiaying Liu and Wenqi Ren},
+    title     = {Self-supervised Learning and Adaptation for Single Image Dehazing},
+    booktitle = {Proceedings of the 31st International Joint Conference on Artificial Intelligence and the 25th European Conference on Artificial Intelligence (IJCAI-ECAI)},
+    year      = {2022},
+}
+</code></pre>
 
