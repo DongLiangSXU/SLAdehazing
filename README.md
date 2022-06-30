@@ -25,7 +25,7 @@ We recommend using pytorch>1.0 and pytorch<1.6 to avoid unnecessary trouble. Our
 ## Train
 Please wait for a while. We will tidy up the training code. It won't consume a lot of time.
 
-## Only-test
+## Only-Test
 If you just need to test, you can execute the following code (need to load the parameters we provide):
 <pre><code>python test_meta.py</code></pre>
 
@@ -34,11 +34,11 @@ It provides 2 different stages of test code, you can choose to test any labeled 
 
 It should be noted that the qualitative results of the first-stage results are better, and the quantitative results of the second-stage results are better on the real data set.
 
-## Checkpoint-files
+## Checkpoint-Files
 You can get our parameter file from the link below
 https://drive.google.com/drive/folders/1xq1tg7wvNJeZTw8w4RnqEsJzQRcmHLCI?usp=sharing
 
-## Data-get
+## Data-Get
 We will give a link to the data we used for training, please wait while we sort out the training code.<br/>
 The data used for testing can be obtained through the following links:<br/>
 <b>SOTS:</b> http://t.cn/RQ34zUi<br/>
