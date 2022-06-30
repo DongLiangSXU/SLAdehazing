@@ -1,3 +1,10 @@
+# News
+Very excited to announce that a brand new job has been accepted by the top multimedia conference ACMMM2022:</p>
+
+<b>Learning Hierarchical Dynamics with Spatial Adjacency for Image Enhancement</b></p>
+
+We will announce the code when the camera is fully ready, so stay tuned.
+
 # SLAdehazing
 <b>Self-supervised Learning and Adaptation for Single Image Dehazing</b> (IJCAI-ECAI 2022 long presentation)</p>
 </p>
