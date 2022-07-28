@@ -48,6 +48,7 @@ https://sites.google.com/view/reside-dehaze-datasets</br>
 In the meantime, we'll make a link to help you get these two datasets. Please wait for a while.
 
 ## Citation
+The paper can be accessed from https://www.ijcai.org/proceedings/2022/0159.pdf .</br>
 If you find our work useful in your research, please cite:
 <pre><code>
 @InProceedings{Liang_2022_IJCAI,
@@ -60,4 +61,5 @@ If you find our work useful in your research, please cite:
 
 ## Contact Us
 If you have any questions, please contact us:</p>
+liangyudong006@163.com </br>
 202022407046@email.sxu.edu.cn
