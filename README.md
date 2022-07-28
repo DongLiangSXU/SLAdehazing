@@ -54,7 +54,7 @@ If you find our work useful in your research, please cite:
 @InProceedings{Liang_2022_IJCAI,
     author    = {Yudong Liang, Bin Wang, Wangmeng Zuo, Jiaying Liu and Wenqi Ren},
     title     = {Self-supervised Learning and Adaptation for Single Image Dehazing},
-    booktitle = {Proceedings of the 31st International Joint Conference on Artificial Intelligence and the 25th European Conference on Artificial Intelligence (IJCAI-ECAI)},
+    booktitle = {Proceedings of the 31st International Joint Conference on Artificial Intelligence (IJCAI-22)},
     year      = {2022},
 }
 </code></pre>
