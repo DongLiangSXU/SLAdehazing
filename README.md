@@ -52,10 +52,11 @@ The paper can be accessed from https://www.ijcai.org/proceedings/2022/0159.pdf .
 If you find our work useful in your research, please cite:
 <pre><code>
 @InProceedings{Liang_2022_IJCAI,
-    author    = {Yudong Liang, Bin Wang, Wangmeng Zuo, Jiaying Liu and Wenqi Ren},
-    title     = {Self-supervised Learning and Adaptation for Single Image Dehazing},
-    booktitle = {Proceedings of the 31st International Joint Conference on Artificial Intelligence (IJCAI-22)},
-    year      = {2022},
+    author = {Liang, Yudong and Wang, Bin and Zuo, Wangmeng and Liu, Jiaying and Ren, Wenqi},
+  title = {Self-supervised Learning and Adaptation for Single Image Dehazing},
+  booktitle = {Proceedings of the 31st International Joint Conference on Artificial Intelligence (IJCAI-22)},
+   pages = {1137-1143},
+  year = {2022}
 }
 </code></pre>
 
