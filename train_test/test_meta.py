@@ -3,7 +3,7 @@ import sys
 sys.path.append("..")
 import os
 
-os.environ['CUDA_VISIBLE_DEVICES'] = '2'
+os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 
 import torch, sys, torchvision, argparse
 import torchvision.transforms as tfs
@@ -128,7 +128,7 @@ def test_have_gt(datatype):
         scorestr = '==' + str(np.mean(ssims)) + '=====' + str(np.mean(psnrs))
         print(scorestr)
         vutils.save_image(dehazemap.cpu(),
-                          '/home/lyd16/PycharmProjects/h4k/wre/'+hname)
+                          './h4k/wre/'+hname)
 
 if __name__ == "__main__":
 
