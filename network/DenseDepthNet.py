@@ -122,7 +122,7 @@ class NormDepth(nn.Module):
         if iskt:
             self.depth_es.load_state_dict(torch.load('./pth_path/depth_pth/kitti.pth'))
         else:
-            self.depth_es.load_state_dict(torch.load('./pth_path/depth_pth/my.pth'))
+            self.depth_es.load_state_dict(torch.load('./pth_path/depth_pth/depth_pth.pth'))
 
         self.threeshold = nn.Threshold(1, 1)
 
