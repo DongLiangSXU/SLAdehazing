@@ -22,7 +22,15 @@ atmospheric scattering model to generate massive hazy-clean image pairs for the 
 We recommend using pytorch>1.0 and pytorch<1.6 to avoid unnecessary trouble. Our method does not rely on the special design of the network structure, so the rest of the general dependencies are not limited.
 
 ## Train
-Please wait for a while. We will tidy up the training code. It won't consume a lot of time.
+Here! You first need to prepare some clear images that you want.
+Put them in ./train_images/collect_images
+<pre><code>python train_stage1.py --net='Stage1' --crop --crop_size=256 --blocks=1 --gps=3 --bs=8 --lr=0.0002 --trainset='its_train' --testset='its_test' --steps=50000 --eval_step=2500</code></pre>
+Get  RTTS and pre-processed data from https://github.com/zychen-ustc/PSD-Principled-Synthetic-to-Real-Dehazing-Guided-by-Physical-Priors
+Put them in ./train_images/RTTS and ./train_images/CLAHE-RTTS
+<pre><code>python train_stage2.py --net='Stage2' --crop --crop_size=256 --blocks=1 --gps=3 --bs=8 --lr=0.0002 --trainset='its_train' --testset='its_test' --steps=10000 --eval_step=1000</code></pre>
+
+Attention! You can modify the code to use an end-to-end dehazing network instead of (Anet, Tnet, and Rnet).
+Such as: BS_e2enet, it in bsnet.py
 
 ## Only-Test
 If you just need to test, you can execute the following code (need to load the parameters we provide):
