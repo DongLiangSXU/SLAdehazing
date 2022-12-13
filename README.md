@@ -3,11 +3,11 @@ Very excited to announce that a brand new job has been accepted by the top multi
 
 <b>Learning Hierarchical Dynamics with Spatial Adjacency for Image Enhancement</b></p>
 
-We will announce the code when the camera is fully ready, so stay tuned.
+IJCAI: Surprisingly, our two-stage network can also brighten low-light images.
 
 # SLAdehazing
 <b>Self-supervised Learning and Adaptation for Single Image Dehazing</b> (IJCAI-ECAI 2022 long presentation)</p>
-</p>
+
 Existing deep image dehazing methods usually depend on supervised learning with a large number of hazy-clean image pairs which are expensive or difficult to collect. Moreover, dehazing performance of the learned model may deteriorate significantly when the training hazy-clean image pairs are insufficient and are different from real hazy images in applications. In this paper, we show that exploiting large scale training set and adapting to real hazy images are two critical issues in learning effective deep dehazing models. Under the depth guidance estimated by a well-trained depth estimation network, we leverage the conventional
 atmospheric scattering model to generate massive hazy-clean image pairs for the self-supervised pretraining of dehazing network. Furthermore, self-supervised adaptation is presented to adapt pretrained network to real hazy images. Learning without forgetting strategy is also deployed in self-supervised adaptation by combining self-supervision and model adaptation via contrastive learning. Experiments show that our proposed method performs favorably against the state-of-the-art methods, and is quite efficient, i.e., handling a 4K image in 23 ms.
 
@@ -33,6 +33,7 @@ Attention! You can modify the code to use an end-to-end dehazing network instead
 Such as: BS_e2enet, it in bsnet.py
 
 ## Only-Test
+
 If you just need to test, you can execute the following code (need to load the parameters we provide):
 <pre><code>python test_meta.py</code></pre>
 
